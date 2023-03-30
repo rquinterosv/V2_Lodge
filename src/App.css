@@ -18,3 +18,14 @@ Fonts: Open Sans 300;500;800
  font-family: 'Open Sans', sans-serif;
 }
 
+/* Hero Section */
+
+/* CSS */
+.hero-section {
+  background-image: url('./img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+

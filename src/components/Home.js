@@ -3,13 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import Navbar from '../components/Navbar';
 import BookCard from '../components/BookCard';
+import HeroSection from './HeroSection';
 
 
 
 function LandingPage() {
   return (
     <div className="bg-gray-100 h-screen">
-      <Navbar />
+        <Navbar />
+        <HeroSection />
+
       <div className="container">
         <div className="row">
           <div className="col-md-8">
