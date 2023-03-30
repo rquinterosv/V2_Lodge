@@ -1,12 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
 function LandingPage() {
   return (
     <div className="bg-gray-100 h-screen">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">My Hotel</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
@@ -41,6 +42,16 @@ function LandingPage() {
                   <div className="form-group">
                     <label htmlFor="checkOut">Check-out date</label>
                     <input type="date" className="form-control" id="checkOut" />
+                  </div>
+                  <div className="dropdown">
+                    <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Select a Room
+                    </button>
+                    <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a className="dropdown-item" href="#">Single Room</a>
+                      <a className="dropdown-item" href="#">Double Room</a>
+                      <a className="dropdown-item" href="#">Deluxe Room</a>
+                    </div>
                   </div>
                   <button type="submit" className="btn btn-primary">Search</button>
                 </form>
