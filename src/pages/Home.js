@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import Navbar from '../components/Navbar';
 import BookCard from '../components/BookCard';
-import HeroSection from './HeroSection';
+import HeroSection from '../components/HeroSection';
 
 
 
