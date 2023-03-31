@@ -3,13 +3,13 @@ import '../App.css';
 
 function HeroSection() {
   return (
-    <div className="hero-section">
-      <div className="hero-text">
-        <h1>Welcome to our website</h1>
-        <p>Discover the best products for your needs</p>
-        <button>Learn More</button>
+    <section className='HeroSection'>
+      <div className="jumbotron">
+        <h1 className="display-4">Bienvenidos</h1>
+        <h3>Lodge las Cascadas</h3>
+        <button class="btn btn-lg custom-btn" href="#" type="button">Reservas</button>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -6,6 +6,13 @@ Colors
   #041c2c: Dark Blue 
 */
 
+/* try this backgorund color White
+  #FFFFFF
+  #F8F8F8
+  #FCFCFC
+  #F2F2F2
+*/
+
 /*
 Fonts: Open Sans 300;500;800
 */
@@ -18,14 +25,48 @@ Fonts: Open Sans 300;500;800
  font-family: 'Open Sans', sans-serif;
 }
 
-/* Hero Section */
+h1 {
+  font-weight: 500
+}
 
-/* CSS */
-.hero-section {
-  background-image: url('./img/hero.jpg');
+
+/* Hero Section */
+.jumbotron {
+  background-image: url('./img/hero1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 650px;
+  text-align: center;
+  padding-top: 180px;
+
 }
+
+.jumbotron h1{
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.jumbotron h3{
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.jumbotron p{
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.jumbotron .custom-btn {
+  background-color: #acb404;
+  border-color: black;
+  color: #F8F8F8;
+}
+
+.jumbotron .custom-btn:hover {
+  background-color: #047c94;
+  border-color: black;
+  color: #F8F8F8;
+}
+
 
