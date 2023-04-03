@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg d-flex justify-content-between p-2">
         <div>
           <a className="navbar-brand" href="#">
-            <img src={logo} width="100px" alt=""></img>
+            <img src={logo} width="70px" alt=""></img>
           </a>
         </div>
         <button className="navbar-toggler btn-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
