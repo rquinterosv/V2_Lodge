@@ -1,16 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
-import Navbar from '../components/Navbar';
 import BookCard from '../components/BookCard';
 import HeroSection from '../components/HeroSection';
 
 
 
-function LandingPage() {
+function Home() {
   return (
     <div className="bg-gray-100 h-screen">
-        <Navbar />
         <HeroSection />
 
       <div className="container">
@@ -28,4 +26,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default Home;
