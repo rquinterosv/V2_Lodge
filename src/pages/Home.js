@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import BookCard from '../components/BookCard';
 import HeroSection from '../components/HeroSection';
+import CardSection from '../components/CardSection';
 
 
 
@@ -10,6 +11,7 @@ function Home() {
   return (
     <div className="bg-gray-100 h-screen">
         <HeroSection />
+        <CardSection />
 
       <div className="container">
         <div className="row">

@@ -77,5 +77,14 @@ nav {
   color: #F8F8F8;
 }
 
+/* Card Section */
 
+.col-custom {
+  background-color: #F2F2F2;
+
+}
+
+.card-custom {
+  margin: 30px;
+}
 
