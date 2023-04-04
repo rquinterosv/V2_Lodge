@@ -38,6 +38,7 @@ nav {
 
 .navbar-nav .nav-item .nav-link{
   color:#041c2c;
+  text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
 }
 
 /* Default styles for both mobile and desktop */
@@ -67,20 +68,37 @@ nav {
 
 
 /* Hero Section */
-.jumbotron {
-  background-image: url('./img/hero1.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 600px;
-  text-align: center;
-  padding-top: 180px;
 
+/* Show the desktop logo for screens wider than 768px */
+@media (max-width: 767px) {
+  .jumbotron {
+    background-image: url('./img/hero1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    padding-top: 180px;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    background-image: url('./img/hero2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    padding-top: 180px;
+    background-color: transparent;
+  }
 }
 
 .jumbotron h1{
   font-weight: 800;
-  font-size: 50px;
+  font-size: 60px;
+  text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
 }
 
 .jumbotron h3{
@@ -97,6 +115,7 @@ nav {
   background-color: #acb404;
   border-color: black;
   color: #F8F8F8;
+  opacity: 1;
 }
 
 .jumbotron .custom-btn:hover {
@@ -105,11 +124,10 @@ nav {
   color: #F8F8F8;
 }
 
+
 /* Card Section */
-
-.col-custom {
+.second-section {
   background-color: #F2F2F2;
-
 }
 
 .card-custom {

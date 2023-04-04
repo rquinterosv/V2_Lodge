@@ -5,8 +5,9 @@ import 'bootstrap/dist/js/bootstrap.js';
 
 function CardSection() {
   return (
-    <Container>
+    <Container className='container-custom'>
       <Row className='row-custom'>
+
         <Col className='col-custom' md={4}>
           <Card className='card-custom'>
             <Carousel>
@@ -41,6 +42,7 @@ function CardSection() {
             </Card.Body>
           </Card>
         </Col>
+
         <Col className='col-custom' md={4}>
           <Card className='card-custom'>
             <Carousel>
@@ -75,6 +77,7 @@ function CardSection() {
             </Card.Body>
           </Card>
         </Col>
+        
         <Col  className='col-custom' md={4}>
           <Card className='card-custom'>
             <Carousel>
