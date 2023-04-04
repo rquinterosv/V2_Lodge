@@ -30,6 +30,8 @@ h1 {
 }
 
 /* Navbar */
+
+
 nav {
   background-color: rgba(172, 180, 4, 0.8);
 }
@@ -38,13 +40,39 @@ nav {
   color:#041c2c;
 }
 
+/* Default styles for both mobile and desktop */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo-mobile {
+  display: block;
+}
+
+.logo-desktop {
+  display: none;
+}
+
+/* Show the desktop logo for screens wider than 768px */
+@media (min-width: 768px) {
+  .logo-mobile {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: block;
+  }
+}
+
+
 /* Hero Section */
 .jumbotron {
   background-image: url('./img/hero1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 650px;
+  height: 600px;
   text-align: center;
   padding-top: 180px;
 
