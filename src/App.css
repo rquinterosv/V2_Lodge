@@ -1,4 +1,12 @@
-/*
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,800;1,300&display=swap');
+
+/*>>>>>> Website Configuration */
+
+* {
+ margin: 0;
+ padding: 0;
+ font-family: 'Open Sans', sans-serif;
+ /*
 Colors 
   #acb404: Green
   #047c94: Light Blue
@@ -12,16 +20,7 @@ Colors
   #F2F2F2
 */
 
-/*
-Fonts: Open Sans 300;500;800
-*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,800;1,300&display=swap');
-
-/*This is the standar configuration for all the web desing*/
-* {
- margin: 0;
- padding: 0;
- font-family: 'Open Sans', sans-serif;
+/* Fonts: Open Sans 300;500;800 */
 }
 
 h1 {
@@ -29,45 +28,63 @@ h1 {
   font-size: 50px;
 }
 
-/* Navbar */
+/*>>>>>> Navbar */
 
+/* >>>>>Mobile */
+/* Before 768px */
+@media (max-width: 768px) {
+  nav {
+    background-color: rgba(172, 180, 4, 0.8);
+  }
+  
+  .navbar-nav .nav-item .nav-link{
+    color:#041c2c;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+  }
 
-nav {
-  background-color: rgba(172, 180, 4, 0.8);
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-mobile {
+    display: block;
+  }
+  
+  .logo-desktop {
+    display: none;
+  }
 }
 
-.navbar-nav .nav-item .nav-link{
-  color:#041c2c;
-  text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
-}
-
-/* Default styles for both mobile and desktop */
-.navbar-brand {
-  display: flex;
-  align-items: center;
-}
-
-.logo-mobile {
-  display: block;
-}
-
-.logo-desktop {
-  display: none;
-}
-
-/* Show the desktop logo for screens wider than 768px */
+/* After 768px*/
 @media (min-width: 768px) {
+  nav {
+    background-color: rgba(172, 180, 4, 0.8);
+  }
+  
+  .navbar-nav .nav-item .nav-link{
+    color:#041c2c;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
   .logo-mobile {
     display: none;
   }
-
+  
   .logo-desktop {
     display: block;
   }
 }
 
 
-/* Hero Section */
+
+
+/*>>>>>>>>> Hero Section */
 
 /* Show the desktop logo for screens wider than 768px */
 @media (max-width: 767px) {

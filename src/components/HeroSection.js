@@ -13,6 +13,9 @@ function HeroSection() {
         <Link to="/" className="navbar-brand logo-desktop">
           <img src={logo1} width="35%" alt="" />
         </Link>
+        <Link to="/" className="navbar-brand logo-mobile">
+          <img src={logo1} width="90%" alt="" />
+        </Link>
         <button className="btn btn-lg custom-btn" type="button">Reservas</button>
       </div>
     </section>
