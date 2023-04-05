@@ -28,13 +28,14 @@ h1 {
   font-size: 50px;
 }
 
-/*>>>>>> Navbar */
+/*>>>>>>>>>> Navbar */
 
-/* >>>>>Mobile */
-/* Before 768px */
+/*Mobile */
 @media (max-width: 768px) {
-  nav {
+  .navbar-container {
     background-color: rgba(172, 180, 4, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .navbar-nav .nav-item .nav-link{
@@ -56,10 +57,12 @@ h1 {
   }
 }
 
-/* After 768px*/
+/*Desktop*/
 @media (min-width: 768px) {
-  nav {
+  .navbar-container {
     background-color: rgba(172, 180, 4, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .navbar-nav .nav-item .nav-link{
@@ -82,11 +85,9 @@ h1 {
 }
 
 
+/*>>>>>>>>>>> Hero Section */
 
-
-/*>>>>>>>>> Hero Section */
-
-/* Show the desktop logo for screens wider than 768px */
+/*Mobile */
 @media (max-width: 767px) {
   .jumbotron {
     background-image: url('./img/hero1.jpg');
@@ -97,8 +98,34 @@ h1 {
     text-align: center;
     padding-top: 180px;
   }
+
+  .jumbotron h1{
+    color: #F8F8F8;
+    font-weight: 800;
+    font-size: 50px;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+  }
+  
+  .jumbotron h3{
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .jumbotron .custom-btn {
+    background-color: #acb404;
+    border-color: black;
+    color: #F8F8F8;
+    opacity: 1;
+  }
+  
+  .jumbotron .custom-btn:hover {
+    background-color: #047c94;
+    border-color: black;
+    color: #F8F8F8;
+  }
 }
 
+/*Desktop*/
 @media (min-width: 768px) {
   .jumbotron {
     background-image: url('./img/hero2.jpg');
@@ -108,38 +135,32 @@ h1 {
     height: 600px;
     text-align: center;
     padding-top: 180px;
-    background-color: transparent;
+  }
+
+  .jumbotron h1{
+    color: #F8F8F8;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+
+  }
+  
+  
+  .jumbotron .custom-btn {
+    background-color: #acb404;
+    border-color: black;
+    color: #F8F8F8;
+    opacity: 1;
+  }
+  
+  .jumbotron .custom-btn:hover {
+    background-color: #047c94;
+    border-color: black;
+    color: #F8F8F8;
   }
 }
 
-.jumbotron h1{
-  font-weight: 800;
-  font-size: 60px;
-  text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
-}
 
-.jumbotron h3{
-  font-weight: 500;
-  font-size: 40px;
-}
-
-.jumbotron p{
-  font-weight: 500;
-  font-size: 25px;
-}
-
-.jumbotron .custom-btn {
-  background-color: #acb404;
-  border-color: black;
-  color: #F8F8F8;
-  opacity: 1;
-}
-
-.jumbotron .custom-btn:hover {
-  background-color: #047c94;
-  border-color: black;
-  color: #F8F8F8;
-}
 
 
 /* Card Section */
