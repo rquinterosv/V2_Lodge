@@ -23,12 +23,7 @@ Colors
 /* Fonts: Open Sans 300;500;800 */
 }
 
-h1 {
-  font-weight: 800;
-  font-size: 50px;
-}
-
-/*>>>>>>>>>> Navbar */
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Navbar */
 
 /*Mobile */
 @media (max-width: 768px) {
@@ -85,7 +80,7 @@ h1 {
 }
 
 
-/*>>>>>>>>>>> Hero Section */
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Hero Section */
 
 /*Mobile */
 @media (max-width: 767px) {
@@ -163,12 +158,37 @@ h1 {
 
 
 
-/* Card Section */
-.second-section {
-  background-color: #F2F2F2;
+/*>>>>>>>>>>>>>>>>>>>>>>> Card Section */
+
+/*Mobile */
+@media (max-width: 768px) {
+  .second-section {
+    background-color: #F2F2F2;
+  }
+  
+  .card-custom {
+    margin: 30px;
+  }
+
+  .card-custom .card-title{
+    color: #acb404;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+  }
 }
 
-.card-custom {
-  margin: 30px;
+/*Desktop*/
+@media (min-width: 768px) {
+  .second-section {
+    background-color: #F2F2F2;
+  }
+  
+  .card-custom {
+    margin: 30px;
+  }
+
+
+  
 }
 

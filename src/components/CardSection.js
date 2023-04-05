@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card, Carousel, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
+import inst2 from '../img/inst2.jpg'
 
 function CardSection() {
   return (
@@ -10,31 +11,33 @@ function CardSection() {
 
         <Col className='col-custom' md={4}>
           <Card className='card-custom'>
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="https://via.placeholder.com/150"
-                    alt="First slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="https://via.placeholder.com/150"
-                    alt="Second slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="https://via.placeholder.com/150"
-                    alt="Third slide"
-                    />
-                </Carousel.Item>
-                </Carousel>
             <Card.Body>
-              <Card.Title>Card 1</Card.Title>
+              <Card.Title>Instalaciones</Card.Title>
+            </Card.Body>
+            <Carousel>
+              <Carousel.Item>
+                  <img
+                  className="d-block w-100"
+                  src={inst2}
+                  alt="First slide"
+                  />
+              </Carousel.Item>
+              <Carousel.Item>
+                  <img
+                  className="d-block w-100"
+                  src={inst2}
+                  alt="Second slide"
+                  />
+              </Carousel.Item>
+              <Carousel.Item>
+                  <img
+                  className="d-block w-100"
+                  src={inst2}
+                  alt="Third slide"
+                  />
+              </Carousel.Item>
+            </Carousel>
+            <Card.Body>
               <Card.Text>
                 This is an example card with some placeholder text. You can add your own content here.
               </Card.Text>
@@ -45,31 +48,33 @@ function CardSection() {
 
         <Col className='col-custom' md={4}>
           <Card className='card-custom'>
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="https://via.placeholder.com/150"
-                    alt="First slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="https://via.placeholder.com/150"
-                    alt="Second slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="https://via.placeholder.com/150"
-                    alt="Third slide"
-                    />
-                </Carousel.Item>
-                </Carousel>
             <Card.Body>
-              <Card.Title>Card 2</Card.Title>
+              <Card.Title>Restaurant</Card.Title>
+            </Card.Body>
+            <Carousel>
+              <Carousel.Item>
+                  <img
+                  className="d-block w-100"
+                  src={inst2}
+                  alt="First slide"
+                  />
+              </Carousel.Item>
+              <Carousel.Item>
+                  <img
+                  className="d-block w-100"
+                  src={inst2}
+                  alt="Second slide"
+                  />
+              </Carousel.Item>
+              <Carousel.Item>
+                  <img
+                  className="d-block w-100"
+                  src={inst2}
+                  alt="Third slide"
+                  />
+              </Carousel.Item>
+            </Carousel>
+            <Card.Body>
               <Card.Text>
                 This is an example card with some placeholder text. You can add your own content here.
               </Card.Text>
@@ -80,31 +85,33 @@ function CardSection() {
         
         <Col  className='col-custom' md={4}>
           <Card className='card-custom'>
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="https://via.placeholder.com/150"
-                    alt="First slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="https://via.placeholder.com/150"
-                    alt="Second slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="https://via.placeholder.com/150"
-                    alt="Third slide"
-                    />
-                </Carousel.Item>
-                </Carousel>
             <Card.Body>
-              <Card.Title>Card 3</Card.Title>
+              <Card.Title>Entorno Natural</Card.Title>
+            </Card.Body>
+            <Carousel>
+              <Carousel.Item>
+                  <img
+                  className="d-block w-100"
+                  src={inst2}
+                  alt="First slide"
+                  />
+              </Carousel.Item>
+              <Carousel.Item>
+                  <img
+                  className="d-block w-100"
+                  src={inst2}
+                  alt="Second slide"
+                  />
+              </Carousel.Item>
+              <Carousel.Item>
+                  <img
+                  className="d-block w-100"
+                  src={inst2}
+                  alt="Third slide"
+                  />
+              </Carousel.Item>
+            </Carousel>
+            <Card.Body>
               <Card.Text>
                 This is an example card with some placeholder text. You can add your own content here.
               </Card.Text>
