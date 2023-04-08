@@ -6,7 +6,7 @@ import inst2 from '../img/inst2.jpg'
 
 function CardSection() {
   return (
-    <Container className='container-custom'>
+    <Container className='card-container'>
       <Row className='row-custom'>
 
         <Col className='col-custom' md={4}>
