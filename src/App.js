@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import Home from './pages/Home';
 import Habitaciones from './pages/Habitaciones';
+import { Form } from 'react-bootstrap';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <Form />
     </div>
   );
 }
