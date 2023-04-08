@@ -10,7 +10,7 @@ function CardSection() {
       <Row className='row-custom'>
 
         <Col className='col-custom' md={4}>
-          <Card className='card-custom'>
+          <Card>
             <Card.Body>
               <Card.Title>Instalaciones</Card.Title>
             </Card.Body>
@@ -47,7 +47,7 @@ function CardSection() {
         </Col>
 
         <Col className='col-custom' md={4}>
-          <Card className='card-custom'>
+          <Card>
             <Card.Body>
               <Card.Title>Restaurant</Card.Title>
             </Card.Body>
@@ -84,7 +84,7 @@ function CardSection() {
         </Col>
         
         <Col  className='col-custom' md={4}>
-          <Card className='card-custom'>
+          <Card>
             <Card.Body>
               <Card.Title>Entorno Natural</Card.Title>
             </Card.Body>
